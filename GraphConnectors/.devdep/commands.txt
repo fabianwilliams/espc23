@@ -1,0 +1,34 @@
+conda env create --name espc --file .devdep/env.yml
+
+conda remove -n espc --all
+## Create the virtual environment
+conda create -n 'environment_name'
+
+## Activate the virtual environment
+conda activate 'environment_name'
+
+## Make sure that ipykernel is installed
+pip install --user ipykernel
+
+## Add the new virtual environment to Jupyter
+python -m ipykernel install --user --name='environment_name'
+
+## To list existing Jupyter virtual environments
+jupyter kernelspec list
+
+## To list existing conda environments
+conda env list
+
+## To remove conda environment
+conda env remove -n 'environment_name'
+
+## To remove the environment from Jupyter
+jupyter kernelspec uninstall 'environment_name'
+ipython kernel install --name espc --user
+jupyter kernelspec uninstall espc
+
+python -m ipykernel install --user --name=espc
+
+tenantid = 485a3633-bdd7-4b94-a9d4-1e7e2f9de3e2
+clientid == 93d04b62-1953-4324-86e2-aa429ba8a850
+espcpoc1 - cdF8Q~f6Cq9S0w531j4WdI_ZehG~oYyARXJGLcKG
