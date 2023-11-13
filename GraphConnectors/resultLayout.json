@@ -11,7 +11,7 @@
           "items": [
             {
               "type": "Image",
-              "url": "https://searchuxcdn.blob.core.windows.net/designerapp/images/DefaultMRTIcon.png",
+              "url": "https://raw.githubusercontent.com/gabriellewill/espc23/main/CopilotAdaptiveCardIcon.png",
               "size": "Small",
               "horizontalAlignment": "Center",
               "altText": "Result logo"
