@@ -1,0 +1,11 @@
+{{$history}}
+User: {{$input}}
+
+---------------------------------------------
+
+Provide the intent of the user. The intent should include the subject name and the best one of the following: {{$options}} as a response in JSON format. 
+The format should read:
+
+{ "subject": "The name of the person as the subject", "action": "The intent of the user"}
+
+INTENT:
